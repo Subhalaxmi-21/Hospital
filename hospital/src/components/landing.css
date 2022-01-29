@@ -1,0 +1,67 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: center;
+    /* row-gap: 10px; */
+    /* align-self: center; */
+    /* background-image: url('https://cdn.pixabay.com/photo/2021/10/11/17/37/doctor-6701410_960_720.jpg'); */
+    background-image: url('https://d2ve6gs9iamg49.cloudfront.net/wp-content/uploads/2019/11/144-Doctor_iStock-1023224308_PowerPoint.jpg');
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.header{
+    font-weight: bold;
+    font-size: 3rem;
+    align-self: center;
+    text-align: center;
+    width:60%;
+    padding-bottom: 10%;
+    padding-left:5%;
+    margin-right: 0.5%;
+    /* color:white; */
+    /* background-color: #a1b7c0; */
+    border-radius: 8px;
+    opacity: 0.9;
+    /* height: 100vh; */
+}
+.subHeader{
+    font-weight: normal;
+    font-size: 2rem;
+    
+}
+.image{
+    /* height: 100vh; */
+    min-width: 30%;
+    /* padding-right: 2px; */
+    text-align: center;
+    /* border: 2px solid red; */
+    opacity: 0.9;  
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+img{
+    /* width: 100%; */
+    /* object-position: 50% 50%; */
+    object-fit: contain;
+    text-align: center;
+    border: 2px solid white;
+    /* margin-right: 5%; */
+    border-radius: 5%;
+}
+
+.buttons{
+    margin: auto;
+    /* margin-left: 100px; */
+    transform: scale(1.2);
+}
+.buttons:hover{
+    margin-bottom:4px;
+}
+.headbut{
+    margin-left: 20px;
+}

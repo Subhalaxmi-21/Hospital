@@ -1,0 +1,43 @@
+    .forms{
+        display:flex;
+        justify-content:center;
+        flex-flow: column wrap;
+        align-content:center;
+        align-items: center;
+        align-self: center;
+        margin:0% 20%;
+        border: 2px solid #13C9F2 ;
+        border-radius: 9px;
+        box-shadow: 5px 5px 15px 3px #1C6EA4;
+        padding: 2% 0;
+        gap:10px;
+        /* background-color: white !important; */
+        /* background-image: url('https://wallpapertops.com/walldb/original/9/a/b/729767.jpg')  !important; */
+        /* z-index: 10000; */
+        /* background-size: cover; */
+    }
+
+    .texts{
+    width:40vw;
+    /* color: tomato;
+    font-weight: bolder;   */
+    } 
+    .cards{
+        display:block;
+        /* margin:3% 9%; */
+        padding:2% 0%;
+        opacity: 0.9;
+        height:100vh;
+        /* width:80%; */
+        margin:auto
+        
+    }
+    .imgs{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center bottom;
+        /* background-image: url('https://cdn.pixabay.com/photo/2014/12/10/20/56/medical-563427_960_720.jpg'); */
+        background-image: url('https://images0.westend61.de/0000864583pw/doctor-nurse-and-senior-patient-smiling-in-hospital-room-CAIF18529.jpg');
+        background-size: cover;
+        /* z-index: 100; */
+    }
